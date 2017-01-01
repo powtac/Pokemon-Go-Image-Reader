@@ -1,0 +1,32 @@
+PODS:
+  - Fusuma (1.0.1)
+  - GoogleAPIClientForREST/Core (1.1.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Sheets (1.1.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.7):
+    - GTMSessionFetcher/Full (= 1.1.7)
+  - GTMSessionFetcher/Core (1.1.7)
+  - GTMSessionFetcher/Full (1.1.7):
+    - GTMSessionFetcher/Core (= 1.1.7)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - Fusuma
+  - GoogleAPIClientForREST/Sheets (~> 1.1.1)
+  - GTMOAuth2 (~> 1.1.4)
+  - TesseractOCRiOS (= 4.0.0)
+
+SPEC CHECKSUMS:
+  Fusuma: 01a5d6fd428eaa6e8e60195797484c9b7f49fcbe
+  GoogleAPIClientForREST: f272e35f7fe9f80ab232756c798adc32245ece8c
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: c8e3c644c18320a198aa33c6db4c2aba07ee4402
+
+COCOAPODS: 1.2.0.beta.3
